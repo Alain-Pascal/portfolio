@@ -1,0 +1,14 @@
+body{
+    background:#FFFFE3;
+    color:#253452;
+    padding: 25px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h2{
+    font-size: 3rem;
+}
+
+img{
+    width: 325px;
+}
