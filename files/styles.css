@@ -9,16 +9,16 @@ h2{
     font-size: 4.5rem;
 }
 
-img{
+.profile-image{
     width: 325px;
     margin-inline-end: 4rem; /*similar to margin-right*/
 }
 
-section{
+.bio{
     display: flex;
 }
 
-a {
+a.btn {
     text-decoration: none;
     color: #FFFFE3;
     background: #1348DA;
