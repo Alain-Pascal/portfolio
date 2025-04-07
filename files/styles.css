@@ -2,7 +2,9 @@ body{
     background:#FFFFE3;
     color:#253452;
     padding: 25px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1024px;
+    margin: 0 auto;
 }
 
 h2{
@@ -18,7 +20,7 @@ h2{
     display: flex;
 }
 
-a.btn {
+a.btn{
     text-decoration: none;
     color: #FFFFE3;
     background: #1348DA;
@@ -27,4 +29,21 @@ a.btn {
     display: inline-flex;
     align-items: center;
     border-radius: 1.25rem;
+}
+
+.article-img{
+    width: 325px;
+}
+
+article{
+    display: flex;
+}
+
+@media (max-width: 1024px) {
+    .bio, article{
+        flex-direction: column;
+    }
+    .article-img{
+        width: 100%;
+    }
 }
