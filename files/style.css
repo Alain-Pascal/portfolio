@@ -89,7 +89,7 @@ body {
   }
   
   .bio .profile-img {
-    margin-inline-end: 4rem;
+    margin-inline-end: 4rem; /* similar to margin right */
     width: 320px;
     min-width: 320px;
     background: #888;
@@ -127,7 +127,7 @@ body {
     font-size: 0.875rem;
   }
   
-  .recent-work {
+  .featured-work {
     padding-block-end: 3rem;
   }
   
@@ -170,6 +170,11 @@ body {
       margin-inline-start: 0;
       margin-block-start: 2rem;
     }
+
+    footer ul {
+      flex-wrap: wrap;
+    }
+
   }
   
   footer {
