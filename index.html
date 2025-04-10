@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Alain Pascal - Software Product Developer</title>
-        <link rel="stylesheet" href="/files/styles.css">
-    </head>
+        <title>Alain Pascal</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Sora:wght@700&family=Work+Sans:ital,wght@0,400;0,700;1,600&display=swap">
+        <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/brands.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/solid.min.css">
+        <link rel="stylesheet" href="https://unpkg.com/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    
+        <link rel="stylesheet" href="/files/style.css">
+        <link rel="stylesheet" href="/files/toggle-switch.css">
+      </head>
     <body>
+        <header>
+            <nav>
+                <h1>Alain Pascal</h1>
+                <ul>
+                <li><a href="#work">Projects</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="controls">
+                <label class="toggle-switch">
+                Dark Mode
+                <input type="checkbox" id="dark-mode-toggle">
+                <div class="toggle-switch-border">
+                    <div class="toggle-switch-dot"></div>
+                </div>
+                </label>
+            </div>
+        </header>
+        
         <section class="bio">
-            <img class="profile-image" src="/assets/img/profile.jpg" alt="Alain Pascal" class="profile-image">
+            <img class="profile-img" src="/assets/img/profile.jpg" alt="Alain Pascal"/>
             <div>
-                <h2>Hello! Alain Pascal here, a software product developer.</h2>
-                <p>I'm dedicated to building innovative solutions. I thrive on transforming complex challenges into elegant, functional software, specializing in full-stack development to create impactful user experience</p>
-                <a class="btn" href="https://github.com/Alain-Pascal" target="_blank">See My Work</a>
+                <h2>Hello! My name is Alain Pascal, a Software Product Developer.</h2>
+                <p>
+                I'm dedicated to building innovative solutions. I thrive on transforming complex challenges into elegant, functional software, specializing in full-stack development to create impactful user experience.
+                </p>
+                <a class="btn" href="https://github.com/Alain-Pascal">See my work</a>
             </div>
         </section>
         <section>
@@ -20,7 +47,7 @@
             <article>
                 <div>
                     <h3>ItemDB Smart Contract</h3>
-                    <p>A Solidity smart contract named that allows users to store, update, and delete item information associated with their Ethereum addresses</p>
+                    <p>A Solidity smart contract that allows users to store, update, and delete item information associated with their Ethereum addresses</p>
                     <strong>March 2025</strong>
                     <ul>
                         <li>Store item details</li>
