@@ -91,7 +91,7 @@ body {
   .bio .profile-img {
     margin-inline-end: 4rem; /* similar to margin right */
     width: 320px;
-    min-width: 320px;
+    min-width: 250px;
     background: #888;
     border-radius: 160px;
   }
@@ -102,6 +102,15 @@ body {
     }
     .bio .profile-img {
       margin-inline-end: 0;
+      width: 250px;
+    }
+
+    .bio h2 {
+      font-size: 2.2rem;
+    }
+
+    .bio p {
+      font-size: 1.289rem;
     }
   }
   
@@ -143,6 +152,10 @@ body {
   
   article h3 {
     margin-block-start: 0;
+  }
+
+  article h3 a {
+    text-decoration: none;
   }
   
   article a {
